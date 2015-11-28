@@ -69,6 +69,6 @@ class ProjectController extends Controller
 
         Session::flash("success", "Votre projet a bien été crée.");
 
-        return Redirect::action("ProjectController@show");
+        return Redirect::action("ProjectController@projectList");
     }
 }

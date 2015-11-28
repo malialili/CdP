@@ -58,4 +58,5 @@
     <a class="btn btn-info center-block"  href="{{ route('taketache.taches.show',$id) }}">Take a Task</a> </br>
 </div>
 	@endif
+    <a href="{{ URL::previous()}}" class="btn btn-default" >Back</a>
 @stop

@@ -76,7 +76,7 @@
                 <div class="row">
                     <div class="col-md-10 col-md-push-1">
                         <button class="btn btn-primary">Add</button>
-                        <a href="{{ URL::previous()}}" class="btn btn-default" >Back</a>
+                        <a href="{{ URL::previous()}}" class="btn btn-default" >Cancel</a>
                     </div>
                 </div>
             </div>

@@ -102,7 +102,9 @@
                 <!-- build:js scripts/main.js -->
                 <script src="{{ URL::asset('D3/app/scripts/main.js') }}"></script>
                 <!-- endbuild -->
+                <a href="{{ URL::previous()}}" class="btn btn-default" >Back</a>
             </div>
+
         </div>
     </div>
 

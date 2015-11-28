@@ -67,7 +67,10 @@
 
                     <a href= {{ URL::action("BacklogController@show", [$idProject]) }} class= 'btn btn-info '> show Backlog</a>
                 @endif
-
+                 @if(auth()->guest())
+                 <a href="{{ URL::previous()}}" class="btn btn-default" >Back</a>
+                 <a href= {{ URL::action("BacklogController@show", [$idProject, $key]) }} class= 'btn btn-info '> show Backlog</a>
+                 @endif
             </div>
 
         </div>
